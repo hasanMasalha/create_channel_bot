@@ -14,7 +14,9 @@ def main():
     application = ApplicationBuilder().token(bot_token).build()
 
     application.add_handler(CommandHandler('start', start_command))
-    application.add_handler(CommandHandler('create', create))
+    test = application.add_handler(CommandHandler('create', create))
+    print("****************************")
+    print(test)
 
     application.run_polling()
 
