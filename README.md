@@ -22,12 +22,11 @@ This project is a Telegram bot designed to create a new channel, invite a user t
    ```bash
      git clone https://github.com/yourusername/telegram-channel-bot.git
      cd telegram-channel-bot
+2.**Install the required dependencies**: 
    
-2.**Install the required dependencies**:
-```bash
-  pip install -r requirements.txt
-  
-3.**Setup your environment**:
+      pip install -r requirements.txt
+
+3. **Setup your environment**:
 add to your .env file the folowing:
  (YOUR_API_ID, YOUR_API_HASH, YOUR_BOT_TOKEN, YOUR_PHONE_NUMBER, YOUR_BOT_USERNAME, TELEGRAM_USER.) with your actual credentials.
 
@@ -35,6 +34,8 @@ add to your .env file the folowing:
 -run the command:
 ```bash
   python main.py
+
+
   
 
 
