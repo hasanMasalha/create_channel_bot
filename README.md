@@ -24,7 +24,7 @@ This project is a Telegram bot designed to create a new channel, invite a user t
      cd telegram-channel-bot
    
 2.**Install the required dependencies**:
-``bash
+```bash
   pip install -r requirements.txt
   
 3.**Setup your environment**:
