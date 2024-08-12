@@ -22,6 +22,3 @@ def save_channel_link(channel_id, link, user_id, filename='channels.json'):
     data.update(channel_data)
     with open(filepath, 'w') as file:
         json.dump(data, file, indent=4)
-    
-    print(f"Channel {channel_id} with link {link} and user ID {user_id} saved successfully.")
-
